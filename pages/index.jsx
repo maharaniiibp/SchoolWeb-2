@@ -124,12 +124,12 @@ const index = () => {
                 </a>
               </div>
             </div>
-          
-          <div className="px-4 g-px-6 mt-5 lg:mt-0">
-            <Dokumentasi />
+
+            <div className="px-4 g-px-6 mt-5 lg:mt-0">
+              <Dokumentasi />
+            </div>
           </div>
         </div>
-      </div>
         <div class="pb-lg-5"></div>
       </div>
 

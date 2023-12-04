@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 import styles from "../styles/galeri.module.css";
 import { Container, Row, Col } from "react-bootstrap";
-import DokumentasiS from '@/components/dokumentasiS';
-import Footer from '@/components/footer';
+import DokumentasiS from "@/components/dokumentasiS";
+import Footer from "@/components/footer";
 
 const galeri = () => {
   return (
-    <div className='bg-white'>
-   <div
+    <div className="bg-white">
+      <div
         className={styles.customBg}
         style={{ backgroundImage: "url('asset/bggaleri.svg')" }}
       >
@@ -20,7 +20,8 @@ const galeri = () => {
                   <div className="text-white">
                     <h1 className={`${styles.h1}`}>Galeri</h1>
                     <p className={`${styles.pp}`}>
-                    Beberapa dokumentasi area sekolah dan <br /> kegiatan sekolah
+                      Beberapa dokumentasi area sekolah dan <br /> kegiatan
+                      sekolah
                     </p>
                   </div>
                 </Col>
@@ -52,13 +53,15 @@ const galeri = () => {
         className={`py-5 mt-9 lg:mt-28 text-center ${styles.articleSection}`}
       >
         <h2 className="text-primary fs-4 mb-3">Galeri</h2>
-        <h1 className="mb-3 fs-2 fs-lg-5 fw-bold text-dark">Dokumentasi Sekolah</h1>
+        <h1 className="mb-3 fs-2 fs-lg-5 fw-bold text-dark">
+          Dokumentasi Sekolah
+        </h1>
       </div>
-      <DokumentasiS/>
-
-<Footer/>
+      <DokumentasiS />
+      <div class="pb-lg-5"></div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default galeri
+export default galeri;

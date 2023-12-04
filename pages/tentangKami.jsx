@@ -79,6 +79,7 @@ function tentangKami() {
           ini.
         </p>
       </div>
+      <div class="pb-lg-5"></div>
 
       {/*section 3*/}
       <div class="pt-5 py-4 py-lg-6 mt-4 mt-lg-28 text-center ">
@@ -88,8 +89,10 @@ function tentangKami() {
       <div class="mb-28">
         <Keunggulan />
       </div>
+      <div class="pb-lg-5"></div>
 
       {/* section 4 */}
+      <div class="pb-lg-5"></div>
       <div className={`${styles.section4} lg:pb-0`}>
         <div className="container">
           <div className={`${styles.mt3} lg:mt-5  lg:ml-4`}>
@@ -114,21 +117,21 @@ function tentangKami() {
       </div>
 
       {/* section 5 */}
-      
+
       <div style={{ paddingTop: "4rem" }}>
         <div
           className="wrap mt-5"
           style={{ maxWidth: "80%", margin: "0 auto" }}
         >
+          <p className="title text-center " style={{ color: "#4FACF6" }}>
+            Cuplikan Sekolah
+          </p>
           <h1
-            className="title text-center fs-1 fw-bold"
-            style={{ color: "#1C2661" }}
+            className="sub-title text-center  fw-bold"
+            style={{ color: "#19245F" }}
           >
             Video Profil
           </h1>
-          <p className="sub-title text-center fw-normal">
-            Berikut adalah video profil dari sekolah kami
-          </p>
           <div class="ratio ratio-16x9  hover-opacity">
             <img
               src="asset/video.png"
@@ -154,11 +157,10 @@ function tentangKami() {
           </div>
         </div>
       </div>
-
-<Footer/>
-
+      <div class="pb-lg-5"></div>
+      <Footer />
     </div>
   );
-};
+}
 
 export default tentangKami;
