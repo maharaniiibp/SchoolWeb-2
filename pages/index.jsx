@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/index.module.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Keunggulan from "@/components/keunggulan";
-// import Link from 'next/link';
 import Dokumentasi from "@/components/dokumentasi";
 import ArtikelBaru from "@/components/Artikelbaru";
 
@@ -59,8 +58,8 @@ const index = () => {
                     style={{
                       maxWidth: "120%",
                       height: "auto",
-                      marginBottom: "50px",
-                      marginTop: "70px",
+                      // marginBottom: "50px",
+                      marginTop: "100px",
                     }}
                   />
                 </Col>

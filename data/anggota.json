@@ -1,0 +1,23 @@
+[
+    {
+      "image": "asset/person1.png",
+      "name": "Jeannete Ong",
+      "position": "Kepala Sekolah"
+    },
+    {
+        "image": "asset/person2.png",
+        "name": "John Smith",
+        "position": "Kepala Staff"
+      },
+      {
+        "image": "asset/person3.png",
+        "name": "Lidya M.P",
+        "position": "Guru Matematika"
+      },
+      {
+        "image": "asset/person4.png",
+        "name": "William",
+        "position": "Guru Fisika"
+      }
+  ]
+  

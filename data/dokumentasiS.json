@@ -1,0 +1,63 @@
+[
+    {
+      "image": "asset/galeri1.png",
+      "title": "Ruang Kelas",
+      "description": "Ruangan yang digunakan untuk proses belajar mengajar"
+    },
+    {
+        "image": "asset/galeri2.png",
+        "title": "Halaman Sekolah",
+        "description": "Halaman tempat siswa dapat bermain dan berkumpul"
+      },
+      {
+        "image": "asset/galeri3.png",
+        "title": "Lorong Sekolah",
+        "description": "Lorong sekolah sebagai jalan penghubung antar kelas"
+      },
+      {
+        "image": "asset/galeri4.png",
+        "title": "Belajar Mengajar",
+        "description": "Kegiatan belajar mengajar yang dilakukan di dalam kelas"
+      },
+      {
+        "image": "asset/galeri5.png",
+        "title": "Kelas Bahasa Inggris",
+        "description": "Kelas bahasa inggris agar siswa bisa lebih fasih berbahasa inggris"
+      },
+      {
+        "image": "asset/galeri6.png",
+        "title": "Karya Murid",
+        "description": "Hasil karya murid dari kelas prakarya yang dikerjakan secara individu dan kelompok"
+      },
+      {
+        "image": "asset/galeri7.png",
+        "title": "Lomba Tarik Tambang",
+        "description": "Kegiatan lomba tarik tambang yang diadakan diacara sekolah"
+      },
+      {
+        "image": "asset/galeri8.png",
+        "title": "Pameran Teknologi",
+        "description": "Pameran alat alat dengan teknologi terbaru agar siswa bisa mengamati"
+      },
+      {
+        "image": "asset/galeri9.png",
+        "title": "Kelas Menggambar",
+        "description": "Kelas agar siswa bisa mengembangkan kemampuan non akademik"
+      },
+      {
+        "image": "asset/galeri10.png",
+        "title": "Tugas Kelompok",
+        "description": "Selain tugas individu, kami juga memberikan tugas kelompok"
+      },
+      {
+        "image": "asset/galeri11.png",
+        "title": "Belajar dan Bermain",
+        "description": "Agar siswa tidak jenuh, kami menerapkan metode belajar dan bermain"
+      },
+      {
+        "image": "asset/galeri12.png",
+        "title": "Tamasya Sekolah",
+        "description": "Tamasya bersama agar siswa lebih akrab dan tidak jenuh"
+      }
+  ]
+  
