@@ -12,13 +12,17 @@ function ArtikelBaru() {
           <div key={index} className="col">
             <Link legacyBehavior href="/artikel">
               <a className={`text-decoration-none ${styles.card5}`}>
-                <div className={`overflow-hidden rounded-3 ${styles.cardImage5}`}>
+                <div
+                  className={`overflow-hidden rounded-3 ${styles.cardImage5}`}
+                >
                   <img
                     src={item.image}
                     alt=""
                     className="w-100 h-auto img-fluid object-fit-cover"
                   />
-                  <button className={`position-absolute bottom-0 start-50 translate-middle  rounded-pill px-3 py-1 text-xs text-white ${styles.dateButton}`}>
+                  <button
+                    className={`position-absolute bottom-0 start-50 translate-middle  text-white ${styles.dateButton}`}
+                  >
                     {item.date}
                   </button>
                 </div>

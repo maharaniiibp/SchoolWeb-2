@@ -9,21 +9,12 @@ import ArtikelBaru from "@/components/Artikelbaru";
 const index = () => {
   return (
     <div className="bg-white ">
-      <img
-        className="d-none d-lg-block position-absolute top-1100 end-0"
-        src="asset/side1.png"
-        alt="Side 1"
-      />
-      <img
-        className="d-none d-lg-block position-absolute top-1680 start-0"
-        src="asset/side2.png"
-        alt="Side 2"
-      />
-      <img
-        className="d-none d-lg-block position-absolute top-3100 end-0"
-        src="asset/side3.png"
-        alt="Side 3"
-      />
+      <div className="d-none d-md-block">
+        <img className={`${styles.side1}`} src="asset/side1.png"></img>
+        <img className={`${styles.side2}`} src="asset/side2.png"></img>
+        <img className={`${styles.side3}`} src="asset/side3.png"></img>
+      </div>
+
       <div
         className={styles.customBg}
         style={{ backgroundImage: "url('asset/bg.svg')" }}
@@ -67,6 +58,7 @@ const index = () => {
             </Container>
           </header>
         </section>
+        <div class="pb-lg-5"></div>
       </div>
 
       {/* section 2 */}
@@ -79,6 +71,7 @@ const index = () => {
         </h1>
       </div>
       <Keunggulan />
+      <div class="pb-lg-5"></div>
 
       {/* section 3 */}
       <div class="py-5 lg:my-14 pb-1 lg:pb-14">
@@ -111,30 +104,33 @@ const index = () => {
             </div>
           </div>
         </div>
+        <div class="pb-lg-5"></div>
       </div>
 
       {/* section 4 */}
-      <div class="container py-5">
-        <div class="row justify-content-center">
-          <div class={`${styles.bglight} col-12 pt-5 pb-16 `}>
-            <div class="mt-3 lg:mt-16 mb-5 lg:ml-4 ml-2">
-              <h2 class="text-purple-500 text-base lg:text-2xl font-medium">
-                Galeri
-              </h2>
-              <div class="text-blue-950 text-2xl lg:text-5xl font-bold font-SF-Pro-Rounded lg:mt-4 d-flex justify-content-between align-items-center">
-                <h1 class="mr-2">Dokumentasi Sekolah</h1>
-                <div class="d-flex align-items-center pr-4">
-                  <a href="/galeri" class="btn btn-primary">
-                    Lihat Semua
-                  </a>
-                </div>
+      <div className={`${styles.section4} lg:pb-0`}>
+        <div className="container">
+          <div className={`${styles.mt3} lg:mt-5  lg:ml-4`}>
+            <h2 className={`${styles.textcolor}`}>
+              Perkenalkan Anggota Sekolah
+            </h2>
+            <div className="text-blue-950 text-2xl-lg lg:text-5xl  lg:mt-4 d-flex justify-content-between align-items-center">
+              <h1 className={`${styles.textguru} mr-2`}>
+                Guru & Staff Sekolah
+              </h1>
+              <div class="d-flex align-items-center pr-4">
+                <a href="/galeri" class="text-white btn btn-warning">
+                  Lihat Semua
+                </a>
               </div>
             </div>
-            <div class="px-4 mt-5">
-              <Dokumentasi />
-            </div>
+          
+          <div className="px-4 g-px-6 mt-5 lg:mt-0">
+            <Dokumentasi />
           </div>
         </div>
+      </div>
+        <div class="pb-lg-5"></div>
       </div>
 
       {/* section 5 */}
@@ -147,6 +143,7 @@ const index = () => {
       <div class="px-14 lg:px-20">
         <ArtikelBaru />
       </div>
+      <div class="pb-lg-5"></div>
     </div>
   );
 };
