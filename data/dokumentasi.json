@@ -1,0 +1,17 @@
+[
+  {
+    "image": "asset/belajarmengajar.png",
+    "title": "Belajar Mengajar",
+    "description": "Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at"
+  },
+  {
+    "image": "asset/sharingsession.png",
+    "title": "Sharing Session",
+    "description": "Kegiatan menukar pendapat dan pikiran anatara guru dan siswa"
+  },
+  {
+    "image": "asset/presentasiprojek.png",
+    "title": "Presentasi Projek",
+    "description": "Kegiatan menunjukan hasil pekerjaan dari guru untuk melatih keberanian"
+  }
+]

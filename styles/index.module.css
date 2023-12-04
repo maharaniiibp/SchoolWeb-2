@@ -1,0 +1,334 @@
+.customBg {
+  background-size: cover;
+  background-position: center top;
+  margin-top: -78px;
+  width: auto; /* Lebar viewport */
+  height: 135vh; /* Tinggi viewport */
+  flex-shrink: 0;
+}
+
+/* section 1 */
+/* button */
+.button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: #ae39ff;
+  border: none;
+}
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  .button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    justify-content: center;
+  }
+}
+
+/*  h1 */
+.h1 {
+  margin-top: 150px;
+  width: 676px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* resp tablet */
+@media only screen and (max-width: 768px) {
+  .h1 {
+    font-size: 26px;
+    width: auto; 
+    margin-top: 80px
+  }
+}
+/* resp mobile */
+@media only screen and (max-width: 480px) {
+  .h1 {
+    font-size: 20px;
+    width: auto; /* Atur ulang lebar agar mengikuti lebar konten */
+  }
+}
+
+/* paragraf */
+.pp {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*mobile */
+@media (max-width: 767px) {
+  .pp {
+    font-size: 16px;
+  }
+}
+/*tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pp {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .pp {
+    font-size: 20px;
+  }
+}
+
+/* style section 2 */
+.customContainer {
+  margin-top: 1.75rem; /* 7/4 */
+  margin-left: 1rem; /* 4/4 */
+}
+
+.customContainer {
+  margin-left: 4rem; /* 16/4 */
+}
+
+@media (min-width: 768px) {
+  .customContainer {
+    margin-left: 2.5rem; /* 10/4 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .customContainer {
+    margin-left: 4rem; /* 16/4 */
+  }
+}
+
+.textPurple {
+  color: #8a3ffc; /* Warna purple sesuai Tailwind */
+  font-size: 1rem; /* Tailwind base size */
+}
+
+.textLg {
+  font-size: 1rem; /* Tailwind size lg */
+}
+
+@media (min-width: 768px) {
+  .textLg {
+    font-size: 1.125rem; /* 18/16 */
+  }
+}
+
+.texttwoxl {
+  font-size: 1.5rem; /* Tailwind size 2xl */
+}
+
+@media (min-width: 1024px) {
+  .texttwoxl {
+    font-size: 2rem; /* 32/16 */
+  }
+}
+
+.textBlue {
+  color: #19245F; /* Warna blue sesuai Tailwind */
+}
+
+.text5xl {
+  font-size: 3.125rem; /* Tailwind size 5xl */
+}
+
+@media (min-width: 1024px) {
+  .text5xl {
+    font-size: 3.125rem; /* 50/16 */
+  }
+}
+
+.font-medium {
+  font-weight: 500; /* Font medium sesuai Tailwind */
+}
+
+.font-bold {
+  font-weight: bold; /* Font bold sesuai Tailwind */
+}
+
+.font-SF {
+  font-family: 'SF Pro Rounded', sans-serif; /* Font family sesuai Tailwind */
+}
+
+/* section 2 */
+.customSection {
+  padding-top: 1.25rem; /* 5/4 */
+  padding-bottom: 0; /* Reset padding bottom */
+}
+
+.customIcon {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.customImg {
+  width: 2.5rem; /* 10/4 */
+  height: 2.5rem; /* 10/4 */
+  padding: 0.5rem;
+}
+
+.bgviolet {
+  background-color: #8a3ffc; /* Warna violet */
+}
+
+.bgamber {
+  background-color: #ffc107; /* Warna amber */
+}
+
+.bgblue {
+  background-color: #007bff; /* Warna blue */
+}
+
+.customTitle {
+  align-self: stretch;
+  color: #2E334E;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.customDescription {
+  align-self: stretch;
+  color: #A3A6A6;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* section 3 */
+.imgfluid {
+  width: 100%;
+  height: auto;
+}
+
+.textblue950 {
+  color: #1C2661;
+  font-family: SF Pro Rounded;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.tentangkami {
+  align-self: stretch;
+  color: #1C2661;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+}
+
+/* section 4 */
+
+.bglight {
+  background: rgba(233, 239, 255, 0.80);
+}
+
+.text-purple-500 {
+  color: #8a2be2;
+}
+
+.text-blue-950 {
+  color: #002366;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.cardtitle {
+  align-self: stretch;
+  color: #19245F;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cardtext {
+  align-self: stretch;
+  color: #2E334E;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card {
+  
+  border-radius: 60px;
+}
+
+/* section 5 */
+
+.card5 {
+  transition: transform 0.3s ease-in-out;
+  /* Tambahkan gaya lainnya sesuai kebutuhanmu */
+}
+
+.card5:hover {
+  transform: scale(1.05);
+  /* Atur efek hover lainnya jika diperlukan */
+}
+
+.cardImage5 {
+  position: relative;
+  /* Tambahkan gaya lainnya sesuai kebutuhanmu */
+}
+
+.dateButton {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 24px;
+  background: #AE39FF;
+  /* Tambahkan gaya lainnya sesuai kebutuhanmu */
+}
+
+
+
