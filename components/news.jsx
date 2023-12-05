@@ -1,7 +1,9 @@
+
+
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import data from "../data/news.json";
-import styles from "../styles/berita.module.css"
+import styles from "../styles/berita.module.css"; // File CSS terpisah
 
 function News() {
   const [jsonData, setJsonData] = useState([]);
@@ -11,38 +13,34 @@ function News() {
   }, []);
 
   return (
-    <div className={`container ${styles.newsContainer}`}>
-      <div className="row">
+    <div className="container px-4 py-5" id="featured-3">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {jsonData.map((item, index) => (
-          <div key={index} className="col-md-4 mb-4">
-            <a href="#" className={`group relative ${styles.newsItem}`}>
-              <div className="w-100 overflow-hidden rounded-lg position-relative">
-                <Link href="/article">
-                  <div className="d-flex align-items-center justify-content-center">
-                    <img
-                      src={item.image}
-                      alt=""
-                      className={`img-fluid object-cover object-center ${
-                        styles.newsImage
-                      }`}
-                    />
-                    <button className={`btn btn-secondary ${styles.dateButton}`}>
-                      {item.date}
-                    </button>
-                  </div>
-                </Link>
-              </div>
+          <div key={index} className="col">
+           
+              <a className={`card ${styles.newsCard}`}>
+                <img
+                  src={item.image}
+                  className="card-img-top"
+                  alt=""
+                />
+                <div className="card-body">
+                  <button className={`btn text-white ${styles.dateButton}`}>
+                    {item.date}
+                  </button>
+                  <h3 className="text-dark fw-bold mt-2">{item.tittle}</h3>
+                  <p className="text-muted mt-1">{item.description}</p>
+                  <Link legacyBehavior href="#">
+                    <p className={`  ${styles.readMore}`}>
+                      Baca selengkapnya
+                    </p>
+                  </Link>
+                 
 
-              <h3 className="text-lg text-gray-900 font-weight-bold mb-2">
-                {item.title}
-              </h3>
-              <p className="text-sm text-gray-500 mb-3">{item.description}</p>
-              <Link href="#">
-                <p className="text-xs text-blue-400 font-weight-bold">
-                  Baca selengkapnya
-                </p>
-              </Link>
-            </a>
+
+                </div>
+              </a>
+           
           </div>
         ))}
       </div>
@@ -51,3 +49,4 @@ function News() {
 }
 
 export default News;
+

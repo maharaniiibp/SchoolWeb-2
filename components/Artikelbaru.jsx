@@ -21,7 +21,7 @@ function ArtikelBaru() {
                     className="w-100 h-auto img-fluid object-fit-cover"
                   />
                   <button
-                    className={`position-absolute bottom-0 start-50 translate-middle  text-white ${styles.dateButton}`}
+                    className={`btn text-white ${styles.dateButton}`}
                   >
                     {item.date}
                   </button>

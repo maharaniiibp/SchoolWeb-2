@@ -375,10 +375,16 @@
 }
 
 .dateButton {
-  bottom: 10px;
+  position: absolute;
+  top: 180px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 24px;
-  background: #ae39ff;
-  outline: none;
+  display: flex;
+width: 194.901px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 24px;
+background: #AE39FF;
 }

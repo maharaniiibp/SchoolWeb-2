@@ -101,7 +101,7 @@ const berita = () => {
       >
         <News />
       </div>
-      <div class="pb-lg-5"></div>
+     
       <Footer />
     </div>
   );
