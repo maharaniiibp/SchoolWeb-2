@@ -15,28 +15,37 @@ function Article() {
           width={1920}
           height={1080}
         />
-        <Container className="px-6 pt-14 mx-auto lg:px-20">
-          <Image
+
+        {/* <div className="d-flex justify-content-center mt-4 md:mt-12 py-8 px-4 sm:px-6 lg:px-8">
+          <img
             src="/asset/imageartikel.png"
-            alt=""
-            className="mt-12 lg:mt-28"
-            width={1200}
-            height={800}
+            alt="School Button"
+            layout="responsive"
+            width={1100}
+            height={650}
+            className="rounded-lg mt-4 h-full sm:h-auto"
+            style={{ position: "relative", top: "-650px" }}
           />
-        </Container>
+        </div> */}
+        <div class={`${styles.positionrelative} row position-relative `}>
+        <img 
+        class="rounded-4 col-xl-12" 
+        src="/asset/imageartikel.png"
+         />
+      </div>
       </div>
 
-      <div className="mt-8 lg:mt-16 pb-40 ml-8 lg:ml-20">
-        <div className="px-4 py-2 bg-purple-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
-          <p class={`${styles.date} text-white`}>12 Desember 2021</p>
+      <div class={`${styles.container} row  `}>
+        <div class={`${styles.date}  rounded-3xl text-center py-2 mb-4 `}>
+          <p class="text-white">12 Desember 2021</p>
         </div>
-        <h1 className="text-blue-950 text-xl lg:text-[53px] font-bold mt-4 leading-tight pr-6">
+        <h1 class="text-blue-950 text-xl lg-text-53px font-bold mt-4 mb-4">
           Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
         </h1>
-        <h2 className="text-neutral-700 text-base lg:text-xl font-normal font-Poppins mt-2 mb-6">
+        <h2 class="text-neutral-700 text-base lg-text-xl font-normal mb-4">
           Penulis : Shinta A.P
         </h2>
-        <p className="text-justify text-neutral-700 text-base lg:text-xl font-normal font-Poppins pr-8 lg:pr-20">
+        <p class="text-justify text-neutral-700 text-sm md-text-base lg-text-lg font-normal mb-4">
           Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali
           belajar di sekolah. Saya ingin bertemu dengan teman-teman sekelas
           saya. begitupun sebagian besar orang tua, mimpi mereka adalah melihat
@@ -86,6 +95,7 @@ function Article() {
           mewujudkan pembelajaran tatap muka meskipun terbatas.
         </p>
       </div>
+      <div class="pb-lg-5"></div>
       <Footer />
     </div>
   );
