@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/kontak.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Footer from "@/components/footer";
 
 const kontak = () => {
   return (
@@ -60,8 +61,10 @@ const kontak = () => {
             <div className="col-md-6">
               <div className="d-flex flex-column gap-5">
                 <div className="d-flex gap-3 align-items-center">
-                  <div className="ph px-1 py-3  d-flex justify-content-center align-items-center">
-                    <img src="asset/phone.png" alt="Phone" className="w-25" />
+                  <div
+                    className={`${styles.phone} px-1 py-3 rounded-circle d-flex justify-content-center align-items-center`}
+                  >
+                    <img src="asset/telp.png" alt="Phone" className="w-50" />
                   </div>
                   <div
                     className="d-flex flex-column"
@@ -76,8 +79,10 @@ const kontak = () => {
                   </div>
                 </div>
                 <div className="d-flex gap-3 align-items-center">
-                  <div className="em px-1 py-3 d-flex justify-content-center align-items-center">
-                    <img src="asset/email.png" alt="Email" className="w-25" />
+                  <div
+                    className={`${styles.email} px-1 py-3  rounded-circle  d-flex justify-content-center align-items-center`}
+                  >
+                    <img src="asset/e-mail.png" alt="Email" className="w-50" />
                   </div>
                   <div
                     className="d-flex flex-column"
@@ -92,8 +97,14 @@ const kontak = () => {
                   </div>
                 </div>
                 <div className="d-flex gap-3 align-items-center">
-                  <div className="loc px-1 py-3   d-flex justify-content-center align-items-center">
-                    <img src="asset/map.png" alt="Location" className="w-25" />
+                  <div
+                    className={`${styles.location} px-1 py-3  rounded-circle  d-flex justify-content-center align-items-center`}
+                  >
+                    <img
+                      src="asset/location.png"
+                      alt="Location"
+                      className="w-50"
+                    />
                   </div>
                   <div
                     className="d-flex flex-column"
@@ -155,6 +166,7 @@ const kontak = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

@@ -23,7 +23,7 @@ function Anggota() {
                 />
               </div>
               <div className="card-body">
-                <h3 className={`${styles.cardtitle} mt-4 text-center  `}style={{  textDecoration: "none" }}>
+                <h3 className={`${styles.cardtitle} text-dark fw-bold mt-2`}s>
                   {item.name}
                 </h3>
                 <p className={`${styles.cardposition} mt-1 text-center text-sm `}>

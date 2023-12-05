@@ -380,11 +380,11 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-width: 194.901px;
-padding: 8px 16px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 24px;
-background: #AE39FF;
+  width: 194.901px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: #ae39ff;
 }
